@@ -723,13 +723,6 @@ const App: React.FC = () => {
                     container.style.transform = `perspective(1000px) rotateY(${x * 20}deg) rotateX(${-y * 20}deg)`;
                   }
                 }}
-                onMouseLeave={(e) => {
-                  const container = document.getElementById("model-container");
-                  if (container) {
-                    container.style.transform =
-                      "perspective(1000px) rotateY(0deg) rotateX(0deg)";
-                  }
-                }}
               >
                 <img
                   src="https://readdy.ai/api/search-image?query=Modern%20anime%20style%20professional%20developer%20character%20with%20neat%20short%20hair%20wearing%20smart%20business%20attire%20standing%20confidently%20against%20minimal%20tech%20themed%20background%20with%20floating%20code%20elements%20and%20UI%20interfaces%2C%20high%20quality%20digital%20art%20with%20clean%20composition%20and%20professional%20lighting&width=800&height=800&seq=9&orientation=squarish"

@@ -4,8 +4,7 @@ import GlowCard from "./GlowCard";
 
 type Testimonial = {
   name: string;
-  mentions: string;
-  imgPath: string;
+  review: string;
 };
 
 const Testimonials: React.FC = () => {

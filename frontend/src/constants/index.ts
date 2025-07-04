@@ -1,7 +1,7 @@
 const testimonials = [
     {
       name: "Mirza Tours",
-      mentions: "@albertflores",
+      
       review:
         "Nadeem was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
      
