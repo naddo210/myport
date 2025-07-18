@@ -442,7 +442,7 @@ const App: React.FC = () => {
       organization: "Nasscom",
       date: "2025",
       image:
-        "/Nadeem+Salmani_ certificate conv 1.png",
+        "/nasscom.png",
     },
     {
       id: 2,
