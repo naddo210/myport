@@ -2,8 +2,7 @@ import { useRef } from "react";
 
 type Testimonial = {
   name: string;
-  mentions: string;
-  imgPath: string;
+
   review: string;
 };
 
